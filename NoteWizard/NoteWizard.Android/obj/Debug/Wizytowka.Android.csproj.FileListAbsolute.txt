@@ -1,0 +1,8 @@
+C:\Users\Moomin\source\repos\okk\xamarin-super-wizytowka\Wizytowka\Wizytowka.Android\obj\Debug\Wizytowka.Android.csproj.CoreCompileInputs.cache
+C:\Users\Moomin\source\repos\okk\xamarin-super-wizytowka\Wizytowka\Wizytowka.Android\obj\Debug\Wizytowka.Droid.App.xaml.g.cs
+C:\Users\Moomin\source\repos\okk\xamarin-super-wizytowka\Wizytowka\Wizytowka.Android\obj\Debug\Wizytowka.Droid.Views.MainPage.xaml.g.cs
+C:\Users\Moomin\source\repos\okk\xamarin-super-wizytowka\Wizytowka\Wizytowka.Android\obj\Debug\Wizytowka.Droid.Views.SettingsPage.xaml.g.cs
+C:\Users\Moomin\source\repos\okk\xamarin-super-wizytowka\Wizytowka\Wizytowka.Android\obj\Debug\Wizytowka.Droid.Views.ItemDetailPage.xaml.g.cs
+C:\Users\Moomin\source\repos\okk\xamarin-super-wizytowka\Wizytowka\Wizytowka.Android\obj\Debug\Wizytowka.Droid.Views.ItemsPage.xaml.g.cs
+C:\Users\Moomin\source\repos\okk\xamarin-super-wizytowka\Wizytowka\Wizytowka.Android\obj\Debug\Wizytowka.Droid.Views.NewItemPage.xaml.g.cs
+C:\Users\Moomin\source\repos\okk\xamarin-super-wizytowka\Wizytowka\Wizytowka.Android\obj\Debug\Wizytowka.Droid.Views.EditItemPage.xaml.g.cs

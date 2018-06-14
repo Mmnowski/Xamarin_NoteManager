@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NoteWizard.Views.ItemDetailPage"
+             Title="{Binding Title}"
+             BackgroundColor="{DynamicResource backgroundColor}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Edytuj"  Clicked="Edytuj_Clicked"/>
+        <ToolbarItem Text="Usuń" Clicked="Usun_Clicked"/>
+        <ToolbarItem Text="Udostępnij" Clicked="Share_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="20" Padding="15" >
+                <Label Text="Tytuł:" FontSize="Medium" TextColor ="{DynamicResource textColor}"/>
+                <Label Text="{Binding Item.Title}" FontSize="Small" TextColor ="{DynamicResource textColor}"/>
+                <Label Text="Treść:" FontSize="Medium" TextColor ="{DynamicResource textColor}"/>
+                <Label Text="{Binding Item.Description}" FontSize="Small" TextColor ="{DynamicResource textColor}"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>          
+</ContentPage>

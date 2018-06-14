@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="NoteWizard.Views.NewItemPage"
+		     Title="Nowa notka"
+             BackgroundColor="{DynamicResource backgroundColor}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Zapisz" Clicked="Save_Clicked" />
+        <ToolbarItem Text="Anuluj" Clicked="Anuluj_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="20" Padding="15" >
+                <Label Text="Tytuł notatki" FontSize="Medium" TextColor ="{DynamicResource textColor}"/>
+                <Entry Text="{Binding Note.Title}" FontSize="Small" TextColor ="{DynamicResource textColor}"/>
+                <Label Text="Treść" FontSize="Medium" TextColor ="{DynamicResource textColor}"/>
+                <Editor Text="{Binding Note.Description}" FontSize="Small" Margin="0" TextColor ="{DynamicResource textColor}"/>
+            </StackLayout>
+    </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
